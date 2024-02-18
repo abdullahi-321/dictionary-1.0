@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  background: rgb(255, 255, 255);
+}
+
+body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+  color: rgb(0, 32, 32);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 5px;
+  background: transparent;
+}
+
+#button {
+  font-size: 2.4rem;
+  background: none;
+  border: 2px solid rgb(0, 99, 99);
+  border-radius: 8px;
+  color: rgb(0, 99, 99);
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: all 0.3s;
+  padding: 0.2rem;
+}
+
+#button:hover {
+  background: rgb(0, 99, 99);
+  color: white;
+}
+
+div {
+  padding: 1rem 1rem 1rem 3rem;
+  border: none;
+  border-left: 4px solid rgb(0, 99, 99);
+  margin-bottom: 2rem;
+  background: rgba(162, 255, 162, 0.11);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  min-width: 60rem;
+  max-width: 60rem;
+}
+
+li {
+  list-style: number;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+h1 {
+  margin-bottom: 1rem;
+  color: rgb(0, 99, 99);
+  width: 100%;
+  border-bottom: 1px solid rgb(0, 99, 99);
+  border-top: 1px solid rgb(0, 99, 99);
+  padding-top: 0.5rem;
+  padding-bottom: 0.9rem;
+  padding-left: 1rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
